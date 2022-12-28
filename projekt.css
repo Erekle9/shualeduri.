@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Clicker+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Clicker+Script&family=Rubik+Spray+Paint&display=swap');
+
+/*font vor Web-Name*/
+
+header {
+    background-color: black;
+}
+
+.namee {
+    font-family: 'Clicker Script', cursive;
+    font-weight: 400;
+    font-size: 32px;
+    color: green;
+    cursor: pointer;
+}
+
+li,
+a,
+button {
+    color: white;
+}
+
+.headnav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 10%;
+}
+
+.navbar {
+    list-style: none;
+}
+
+.navbar li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.navbar li a {
+    transition: all 0.3s ease 0s;
+    text-decoration: none;
+    color: lightslategray;
+    font-size: xx-large;
+    font-family: 'Rubik Spray Paint', cursive;
+}
+
+.navbar li a:hover {
+    color: greenyellow;
+}
+
+.social+.follow:hover {
+    cursor: pointer;
+    display: inline-block;
+}
+
+
+/*ver avamushave*/
+
+.follow {
+    background-color: white;
+    padding: 15px;
+    display: none;
+    border-radius: 40%;
+    font-size: xx-small;
+}
+
+.login {
+    padding: 9px 25px;
+    background-color: rgba(0, 136, 169, 1);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+.login:hover {
+    transition: all 0.3s ease 0.2s;
+    color: greenyellow;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 2% 20%;
+}
+
+.icon {
+    font-family: 'Clicker Script', cursive;
+    font-size: xx-large;
+    font-weight: bolder;
+    color: green;
+}
+
+.footer a {
+    text-decoration: none;
+    color: gray;
+    font-weight: bolder;
+}
+
+.footer a:hover {
+    color: rgb(54, 53, 53);
+}
+
+.footer h3 {
+    font-weight: bolder;
+    color: green;
+}
